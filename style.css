@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+    padding: 1rem;
+
+}
+.card{
+    background-image: linear-gradient(225deg, rgb(13, 250, 210),rgb(9, 70, 139));
+    padding: 1rem;
+    color: rgb(54, 20, 104);
+    min-height: 80vh;
+    width: 35%;
+    overflow-y: auto;
+    border-radius: 0.6rem;
+    
+}
+
+.card-title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    border: none;
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    width: 80%;    
+}
+.btn{
+    border: solid 1px rgb(9, 70, 139);
+    border-radius: 0.6rem;
+    padding: 0.5rem;
+    background-color: rgb(9, 70, 139);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s;
+    
+}
+#Button{
+    width: 19%;
+}
+
+.btn:hover{
+    background-color:white;
+    color:rgb(9, 70, 139) ;
+}
+
+.list-style{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(7, 153, 185);
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin: 1rem 0;
+    color: white;
+
+}
+
+.list-style:hover{
+    background-color: rgb(4, 145, 164);
+}
+
+.bg-success{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ddffdd;
+    border-left: 6px solid #04aa6d;
+    width: 70%;
+}
+
+.bg-danger{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    color: black;
+    background-color: #ffdfdd;
+    border-left: 6px solid #aa1a04;
+    width: 70%;
+}
+
